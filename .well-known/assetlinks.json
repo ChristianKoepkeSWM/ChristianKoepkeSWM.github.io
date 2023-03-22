@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "de.swm.muenchenapp",
+      "sha256_cert_fingerprints": [
+        "57:0D:94:91:4F:73:D5:30:66:B8:C7:16:5C:AA:CB:57:38:DC:46:06:30:92:B3:02:CA:45:1D:54:EB:BD:50:04"
+      ]
+    }
+  }
+]
