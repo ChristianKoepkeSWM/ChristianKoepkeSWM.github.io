@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>App Feed Detail Root Page</title>
+</head>
+<body>
+      <script>
+
+            const getMobileOS = () => {
+        
+                const ua = navigator.userAgent
+        
+        
+        
+        
+                if (/android/i.test(ua)) {
+        
+                    return "Android"
+        
+                }
+        
+                else if ((/iPad|iPhone|iPod/.test(ua))
+        
+                    || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)){
+        
+                    return "iOS"
+        
+                }
+        
+                return "Other"
+        
+            }
+        
+        
+        
+                const os = getMobileOS()
+        
+        
+        
+        
+                if (os === "Android") {
+        
+                    window.open("https://play.google.com/store/apps/details?id=de.swm.muenchenapp", "_parent");
+        
+                } else if (os === "iOS") {
+        
+                    window.open("https://apps.apple.com/app/id1578828008", "_parent");
+        
+                } else {
+        
+                    window.open("https://christiankoepke.github.io/", "_parent");
+        
+                }
+        
+        </script>
+
+</body>
+</html>
