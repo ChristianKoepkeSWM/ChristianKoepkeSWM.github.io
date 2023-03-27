@@ -2,7 +2,7 @@
   "applinks": {
       "details": [
       {
-        "appID": "292ZW3S8RB.de.swm.muenchenapp",
+	"appIDs": [ "292ZW3S8RB.de.swm.muenchenapp.test", "292ZW3S8RB.de.swm.muenchenapp" ],
         "paths": ["*"]
       }
     ]
