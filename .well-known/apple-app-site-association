@@ -3,7 +3,7 @@
       "details": [
       {
 	      "appID": "292ZW3S8RB.de.swm.muenchenapp",
-        "paths": ["/link"]
+        "paths": ["/link/*"]
       }
     ]
   }
